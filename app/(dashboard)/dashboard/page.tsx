@@ -1,0 +1,10 @@
+import DashboardRouter from "@/components/dashboards/dashboard-router";
+import DashboardLayout from "@/components/layout/dashboard-layout";
+
+export default function DashboardPage() {
+  return (
+    <DashboardLayout>
+      <DashboardRouter />
+    </DashboardLayout>
+  );
+}
